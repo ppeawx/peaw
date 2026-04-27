@@ -10,7 +10,6 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav class="navbar">
         <a href="#home" class="scroll-link">
             <div class="logo">
@@ -33,16 +32,14 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Welcome to My World</h1>
-            <p>A fresh and modern portfolio showcase</p>
+            <p>A collection of my digital works and professional experience.</p>
             <a href="#projects" class="cta-button scroll-link">Portfolio</a>
         </div>
     </section>
 
-    <!-- Features Section -->
     <section id="education" class="features">
         <h2>Education</h2>
         <div class="feature-grid">
@@ -52,15 +49,18 @@
                 <b><p>ประกาศนียบัตรวิชาชีพ (ปวช.)</p>
                 <p>ปีที่สำเร็จการศึกษา: 2562</p>
                 <p>สาขา: คอมพิวเตอร์ธุรกิจ</p>
-                <p>วิทยาลัยเทคนิคกระบี่</p></b>
+                <p>วิทยาลัยเทคนิคกระบี่</p>
+                <p>GPA : 2.60</p></b>
+               
             </div>
             <div class="feature-item">
                 <img src="img/techincal_logo.png" alt="Krabi Technical College Logo" class="education-logo">
                 <h3>ปวส.</h3>
                 <b><p>ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.)</p>
                 <p>ปีที่สำเร็จการศึกษา: 2564</p>
-                <p>สาขา เทคโนโลยีสารสนเทศ</p>
-                <p>วิทยาลัยเทคนิคกระบี่</p></b>
+                <p>สาขา เทคโนโลยีสารสนเทศ</p> 
+                <p>วิทยาลัยเทคนิคกระบี่</p>
+                <p>GPA : 3.04</p></b>
             </div>
             <div class="feature-item">
                 <img src="img/rmutsv_logo.png" alt="Walailak University Logo" class="education-logo">
@@ -68,13 +68,13 @@
                 <b><p>ปริญญาตรี</p>
                 <p>ปีที่สำเร็จการศึกษา 2566</p>
                 <p>สาขา ระบบโทรคมนาคมและเครือข่าย</p>
-                <p>(เกียรตินิยมอันดับ 1)</p>
-                <p>มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย</p></b>
+                <p>มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย</p>
+                  <p>(เกียรตินิยมอันดับ 1)</p>
+                <p>GPA : 3.81</p></b>
             </div>
         </div>
     </section>
 
-    <!-- Internship Section -->
     <section id="internship" class="features">
         <h2>Internship Experience</h2>
         <div class="feature-grid">
@@ -111,7 +111,6 @@
         </div>
     </section>
 
-    <!-- Certificate Section -->
     <section id="certificate" class="certificate">
         <h2>Certificate</h2>
         <p>Here are some of my certificates.</p>
@@ -183,60 +182,60 @@
         </div>
     </section>
 
-    <!-- Modal -->
     <div class="modal" id="certificateModal">
         <span class="modal-close">×</span>
         <img class="modal-content" id="modalImage">
     </div>
 
-    <!-- My Portfolio Section -->
-<!-- My Portfolio Section -->
-<section id="projects" class="portfolio-section">
+    <section id="projects" class="portfolio-section">
     <div class="portfolio-header">
         <h1>MY PORTFOLIO</h1>
-        <p>EXPLORE A COLLECTION OF MY RECENT PROJECTS SHOWCASING MY SKILLS IN DESIGN, DEVELOPMENT, AND CREATIVE PROBLEM-SOLVING.</p>
+        <p>Sharing some of my recent work and the things I’ve learned along the way in design and problem-solving.</p>
     </div>
     <div class="filter-tabs">
         <button class="active" data-filter="all">ALL PROJECTS</button>
         <button data-filter="web">WEB DESIGN</button>
         <button data-filter="graphic">GRAPHIC DESIGN</button>
-        <!--<button data-filter="branding">WORDPRESS</button>-->
         <button data-filter="photography">NETWORK&ARDUINO</button>
     </div>
     <div class="project-grid">
-        <!-- แก้ไข: เพิ่ม data-order="0" -->
-        <div class="project-card" data-category="web" data-order="0">
-            <img src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?ga=GA1.1.473152669.1743170139&semt=ais_country_boost&w=740" alt="Project 1">
-            <div class="project-card-content">
-                <h3>QR Generate</h3>
-                <p>ระบบสมัครและจัดการสมาชิกที่แยกแอดมินและยูสเซอร์ ที่สามารถจัดการผู้ใช้งานได้อย่างอิสระ</p>
-                <div class="project-tags">
-                    <span>Web Design</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JS</span>
-                </div>
-            </div>
-        </div>
-        <!-- แก้ไข: ลบ <div class="project-grid"> ที่ซ้อนกัน และย้าย .project-card ออกมา -->
         <div class="project-card" data-category="web" data-order="1">
-            <img src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?ga=GA1.1.473152669.1743170139&semt=ais_country_boost&w=740" alt="Project 1">
-            <div class="project-card-content">
-                <h3>Project Member</h3>
-                <p>ระบบสมัครและจัดการสมาชิกที่แยกแอดมินและยูสเซอร์ ที่สามารถจัดการผู้ใช้งานได้อย่างอิสระ</p>
-                <div class="project-tags">
-                    <span>Web Design</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JS</span>
-                    <span>PHP</span>
-                    <span>SQL</span>
-                </div>
-            </div>
+    <div class="project-card-image">
+        <img src="https://img2.pic.in.th/Screenshot-2026-04-27-034404.jpg">
+        <a href="http://sookson.com/" target="_blank" class="view-graphic text-center">Visit Site</a>
+    </div>
+
+    <div class="project-card-content">
+        <h3>SOOKSON</h3>
+        <p>SOOKSON (ซุกซน) - เว็บไซต์ศูนย์รวมแนะนำข้อมูลสินเชื่อถูกกฎหมาย <span id="dots-sookson">...</span><span id="more-sookson" style="display: none;"> รีวิววิธีสมัครสินเชื่อรถแลกเงิน บัตรเครดิต และทริคการเงินที่เข้าใจง่าย</span>
+        <a href="javascript:void(0);" id="read-more-btn-text-sookson" class="read-more-btn" onclick="toggleReadMore('sookson')">Read more</a></p>
+        <div class="project-tags">
+             <span>Web Design</span>
+             <span>Wordpress</span>  
         </div>
-        <div class="project-card" data-category="graphic" data-order="1">
+    </div>
+</div>
+        <div class="project-card" data-category="web" data-order="1">
+    <div class="project-card-image">
+        <img src="https://img2.pic.in.th/Gemini_Generated_Image_t58w3xt58w3xt58w-1.png">
+        <a href="https://ppeawx.github.io/qrproject/" target="_blank" class="view-graphic text-center">Visit Site</a>
+    </div>
+
+    <div class="project-card-content">
+        <h3>QR Generate</h3>
+        <p>เครื่องมืออำนวยความสะดวกในการสร้างรหัส QR สำหรับธุรกิจและบุคคลทั่วไป <span id="dots-qr">...</span><span id="more-qr" style="display: none;"> ที่เรียบง่าย สะอาดตา และทำงานได้อย่างรวดเร็ว</span>
+        <a href="javascript:void(0);" id="read-more-btn-text-qr" class="read-more-btn" onclick="toggleReadMore('qr')">Read more</a></p>
+        <div class="project-tags">
+             <span>Web Design</span>
+             <span>HTML</span>
+             <span>CSS</span>
+             <span>JS</span>
+        </div>
+    </div>
+</div>
+<div class="project-card" data-category="graphic" data-order="0">
             <div class="project-card-image">
-                <img src="img/1.jpg" alt="Graphic Design 1">
+                <img src="img/1.jpg" alt="Graphic Design 0">
                 <button class="view-graphic" data-images='[
                     "img/1.jpg",
                     "img/2.jpg",
@@ -253,7 +252,8 @@
             </div>
             <div class="project-card-content">
                 <h3>Logo & Branding Design</h3>
-                <p>ออกแบบโลโก้ ร้านขนมไทย ในสไตล์สมัยใหม่ ผสมผสานความสนุกและความหรูหรา</p>
+                <p>ออกแบบโลโก้ ร้านขนมไทย ในสไตล์สมัยใหม่ <span id="dots-logo0">...</span><span id="more-logo0" style="display: none;"> ผสมผสานความสนุกและความหรูหรา</span>
+                <a href="javascript:void(0);" id="read-more-btn-text-logo0" class="read-more-btn" onclick="toggleReadMore('logo0')">Read more</a></p>
                 <div class="project-tags">
                     <span>Graphic Design</span>
                     <span>Adobe Photoshop</span>
@@ -261,9 +261,9 @@
                 </div>
             </div>
         </div>
-        <div class="project-card" data-category="graphic" data-order="2">
+<div class="project-card" data-category="graphic" data-order="1">
             <div class="project-card-image">
-                <img src="img/D1.jpg" alt="Graphic Design 2">
+                <img src="img/D1.jpg" alt="Graphic Design 1">
                 <button class="view-graphic" data-images='[
                     "img/D1.jpg",
                     "img/D2.jpg",
@@ -275,7 +275,8 @@
             </div>
             <div class="project-card-content">
                 <h3>Logo&Branding Design</h3>
-                <p>ออกแบบโลโก้อสังหาริมทรัพย์ ที่ดูแข็งแรงมั่นคงสื่อถึงรากฐานที่แข็งแรง ความหรูหราแบบมีสไตล์</p>
+                <p>ออกแบบโลโก้อสังหาริมทรัพย์ ที่ดูแข็งแรงมั่นคง <span id="dots-logo1">...</span><span id="more-logo1" style="display: none;"> สื่อถึงรากฐานที่แข็งแรง ความหรูหราแบบมีสไตล์</span>
+                <a href="javascript:void(0);" id="read-more-btn-text-logo1" class="read-more-btn" onclick="toggleReadMore('logo1')">Read more</a></p>
                 <div class="project-tags">
                     <span>Graphic Design</span>
                     <span>Adobe Photoshop</span>
@@ -283,21 +284,10 @@
                 </div>
             </div>
         </div>
-        <div class="project-card" data-category="branding" data-order="1">
-            <img src="https://img.freepik.com/premium-photo/software-developer-writes-code-develop-ai-software-laptop-company_1037297-49864.jpg?ga=GA1.1.473152669.1743170139&semt=ais_country_boost&w=740" alt="Project 3">
-            <div class="project-card-content">
-                <h3>Project Three</h3>
-                <p>Built with passion and precision.</p>
-                <div class="project-tags">
-                    <span>Branding</span>
-                    <span>Graphic Design</span>
-                    <span>Adobe Illustrator</span>
-                </div>
-            </div>
-        </div>
-        <div class="project-card" data-category="graphic" data-order="2">
+
+<div class="project-card" data-category="graphic" data-order="3">
             <div class="project-card-image">
-                <img src="img/S1.jpg" alt="Graphic Design 2">
+                <img src="img/S1.jpg" alt="Graphic Design 3" >
                 <button class="view-graphic" data-images='[
                     "img/S1.jpg",
                     "img/S2.jpg",
@@ -307,7 +297,8 @@
             </div>
             <div class="project-card-content">
                 <h3>Logo&Coverpage Design</h3>
-                <p>ออกแบบโปสเตอร์สำหรับงานอีเวนต์ เน้นความสดใสและทันสมัย</p>
+                <p>ออกแบบโปสเตอร์สำหรับงานอีเวนต์ <span id="dots-p3">...</span><span id="more-p3" style="display: none;"> เน้นความสดใสและทันสมัย</span>
+                <a href="javascript:void(0);" id="read-more-btn-text-p3" class="read-more-btn" onclick="toggleReadMore('p3')">Read more</a></p>
                 <div class="project-tags">
                     <span>Graphic Design</span>
                     <span>Adobe Photoshop</span>
@@ -315,22 +306,193 @@
                 </div>
             </div>
         </div>
-        <div class="project-card" data-category="branding" data-order="1">
-            <img src="https://img.freepik.com/premium-photo/software-developer-writes-code-develop-ai-software-laptop-company_1037297-49864.jpg?ga=GA1.1.473152669.1743170139&semt=ais_country_boost&w=740" alt="Project 3">
-            <div class="project-card-content">
-                <h3>Project Three</h3>
-                <p>Built with passion and precision.</p>
-                <div class="project-tags">
-                    <span>Branding</span>
-                    <span>Graphic Design</span>
-                    <span>Adobe Illustrator</span>
-                </div>
-            </div>
+
+<div class="project-card" data-category="graphic" data-order="4">
+    <div class="project-card-image">
+        <img src="img/monk_2.jpg" alt="Graphic Design 4">
+        <button class="view-graphic" data-images='[
+            "img/monk_card.png",
+            "img/monk_1.jpg",
+            "img/monk_2.jpg"
+        ]'>View Gallery</button>
+    </div>
+    <div class="project-card-content">
+        <h3>Ordination Card Design</h3>
+        <p>
+            ออกแบบโปสเตอร์สำหรับงานบวช การ์ดงานบวช โปสเตอร์นี้ทำขึ้นสำหรับงานบวชในวัดไทย
+            เพื่อเชิญชวนคนมาร่วมพิธีสำคัญที่หนุ่มสาวจะก้าวเข้าสู่การเป็นพระ
+            <span id="dots-project3">...</span><span id="more-project3" style="display: none;"> เลือกใช้สีขาวและสีทองเพื่อให้ดูสงบและศักดิ์สิทธิ์
+            พร้อมใส่ลายดอกบัวและลายไทยเพื่อบอกเล่าความเป็นไทย ตัวหนังสือที่อ่านง่ายและสวยงาม
+            เพื่อให้โปสเตอร์ดูน่าสนใจและเหมาะกับงานพิธี</span>
+            <a href="javascript:void(0);" id="read-more-btn-text-project3" class="read-more-btn" onclick="toggleReadMore('project3')">Read more</a>
+        </p><br>
+        <div class="project-tags">
+            <span>Graphic Design</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
         </div>
+    </div>
+</div>
 
-        
+<div class="project-card" data-category="graphic" data-order="5">
+    <div class="project-card-image">
+        <img src="img/poster_st1.jpg" alt="Graphic Design 5">
+        <button class="view-graphic" data-images='[
+            "img/Poster_student.jpg",
+            "img/poster_st1.jpg",
+            "img/poster_st2.jpg",
+            "img/poster_st3.jpg"
+        ]'>View Gallery</button>
+    </div>
+    <div class="project-card-content">
+        <h3>โปสเตอร์ประชาสัมพันธ์หลักสูตร<br> (Telecommunication Systems and Networks)</h3>
+        <p>
+            โปสเตอร์ประชาสัมพันธ์สำหรับหลักสูตรปริญญาตรีสาขาระบบโทรคมนาคมและเครือข่าย ของ มทร.ศรีวิชัย
+            <span id="dots-project4">...</span><span id="more-project4" style="display: none;">
+            การออกแบบมุ่งเน้นที่การจัดลำดับข้อมูลที่ชัดเจน ภาพประกอบที่ดึงดูดใจ และการใช้ Call-to-action (รหัส QR)
+            ที่มีประสิทธิภาพ เพื่อดึงดูดผู้สมัคร โครงการนี้แสดงให้เห็นถึงทักษะของฉันในการสื่อสารด้วยภาพ
+            การจัดวางองค์ประกอบ และการสร้างสรรค์สื่อการตลาดที่มีผลกระทบสำหรับสถาบันการศึกษา
+            สามารถรวมรายละเอียดหลักสูตรที่สำคัญเข้ากับภาพที่น่าสนใจเพื่อสื่อถึงโอกาสและความเป็นมืออาชีพได้อย่างประสบความสำเร็จ</span>
+            <a href="javascript:void(0);" id="read-more-btn-text-project4" class="read-more-btn" onclick="toggleReadMore('project4')">Read more</a>
+        </p><br>
+        <div class="project-tags">
+            <span>Graphic Design</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
+        </div>
+    </div>
+</div>
 
-         <div class="project-card" data-category="photography" data-order="1">
+<div class="project-card" data-category="graphic" data-order="6">
+    <div class="project-card-image">
+        <img src="img/dd2.png" alt="Graphic Design 6">
+        <button class="view-graphic" data-images='[
+            "img/dd2.png",
+            "img/dd3.jpg",
+            "img/dd4.jpg",
+            "img/dd5.jpg",
+            "img/dd1.jpg"
+        ]'>View Gallery</button>
+    </div>
+    <div class="project-card-content">
+        <h3>Logo&Branding Design<br></h3>
+        <p>
+            DINDEE ESTATE คือแบรนด์ตัวแทนนายหน้าอสังหาริมทรัพย์ยุคใหม่ ที่มุ่งเน้นการส่งมอบบริการที่ "ดี" และ "จริงใจ"
+            <span id="dots-p6">...</span><span id="more-p6" style="display: none;">
+            ตามชื่อแบรนด์ (ดินดี) โดยให้บริการครอบคลุมทั้งการเป็นที่ปรึกษาด้านการซื้อ-ขาย และการบริหารจัดการอสังหาริมทรัพย์อย่างครบวงจร</span>
+            <a href="javascript:void(0);" id="read-more-btn-text-p6" class="read-more-btn" onclick="toggleReadMore('p6')">Read more</a>
+        </p><br>
+        <div class="project-tags">
+            <span>Graphic Design</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
+        </div>
+    </div>
+</div>
+
+<div class="project-card" data-category="graphic" data-order="7">
+    <div class="project-card-image">
+        <img src="img/bg_page.png" alt="Graphic Design 7">
+        <button class="view-graphic" data-images='[
+            "img/rd1.jpg",
+            "img/rd2.png",
+            "img/rd3.jpg",
+            "img/cdfu1.jpg",
+            "img/cdfu2.png",
+            "img/cdfu.jpg",
+            "img/dd4.jpg",
+            "img/dd5.jpg",
+            "img/dd1.jpg"
+        ]'>View Gallery</button>
+    </div>
+    <div class="project-card-content">
+        <h3>Logo&Branding Design<br></h3>
+        <p>
+            โปสเตอร์ประชาสัมพันธ์สำหรับหลักสูตรปริญญาตรีสาขาระบบโทรคมนาคมและเครือข่าย ของ มทร.ศรีวิชัย
+            <span id="dots-p7">...</span><span id="more-p7" style="display: none;">
+            การออกแบบมุ่งเน้นที่การจัดลำดับข้อมูลที่ชัดเจน ภาพประกอบที่ดึงดูดใจ และการใช้ Call-to-action (รหัส QR)
+            ที่มีประสิทธิภาพ เพื่อดึงดูดผู้สมัคร</span>
+            <a href="javascript:void(0);" id="read-more-btn-text-p7" class="read-more-btn" onclick="toggleReadMore('p7')">Read more</a>
+        </p><br>
+        <div class="project-tags">
+            <span>Graphic Design</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
+        </div>
+    </div>
+</div>
+
+<div class="project-card" data-category="graphic" data-order="8">
+    <div class="project-card-image">
+        <img src="img/lone/ss_page.jpg" alt="Graphic Design 8">
+        <button class="view-graphic" data-images='[
+            "img/lone/student.jpg",
+            "img/lone/student1.jpg",
+            "img/lone/linebk.jpg",
+            "img/lone/finnix.jpg",
+            "img/lone/KT.jpg",
+            "img/lone/money.jpg",
+            "img/lone/moneyTD.jpg",
+            "img/lone/ThaiC.jpg",
+            "img/lone/GBS.jpg",
+            "img/lone/Thailand.jpg"
+
+        ]'>View Gallery</button>
+    </div>
+    <div class="project-card-content">
+        <h3>Loan app cover page (Blog)<br></h3>
+        <p>
+            SOOKSON (ซุกซน) คือพื้นที่แห่งการเรียนรู้และที่ปรึกษาด้านการเงินยุคใหม่ ที่มุ่งเน้นการส่งมอบข้อมูลสินเชื่อที่ "ถูกต้อง" และ "เข้าถึงง่าย"
+            <span id="dots-p8">...</span><span id="more-p8" style="display: none;">
+             ผ่านการออกแบบภาพปกบทความ (Blog Cover) ที่ลดทอนความซับซ้อนของโลกการเงิน ให้กลายเป็นเรื่องที่ทุกคนเข้าใจได้ในทันที</span>
+            <a href="javascript:void(0);" id="read-more-btn-text-p8" class="read-more-btn" onclick="toggleReadMore('p8')">Read more</a>
+        </p><br>
+        <div class="project-tags">
+            <span>Graphic Design</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
+        </div>
+    </div>
+</div>
+
+<div class="project-card" data-category="graphic" data-order="9">
+    <div class="project-card-image">
+        <img src="img/blog/ss_page2.jpg" alt="Graphic Design 9">
+        <button class="view-graphic" data-images='[
+            "img/blog/accident.jpg",
+            "img/blog/noise.jpg",
+            "img/blog/pdf.jpg",
+            "img/blog/removebg.jpg",
+            "img/blog/if.jpg",
+            "img/blog/job2.jpg",
+            "img/blog/freelance.jpg",
+            "img/blog/sara.jpg",
+            "img/blog/sara1.jpg",
+            "img/blog/sara2.jpg",
+            "img/blog/truck1.jpg",
+            "img/blog/truck2.jpg",
+            "img/blog/dung.jpg",
+            "img/blog/prb.jpg"
+        ]'>View Gallery</button>
+    </div>
+    <div class="project-card-content">
+        <h3>Logo&Branding Design<br></h3>
+        <p>
+            การออกแบบภาพปกบทความ (Blog Cover) ที่มุ่งเน้นการสร้าง First Impression
+            <span id="dots-p9">...</span><span id="more-p9" style="display: none;">
+             เพื่อเปลี่ยนจาก "ผู้เข้าชม" ให้กลายเป็น "ผู้อ่าน" โดยการใช้ศิลปะการสื่อสารผ่านภาพที่สามารถสรุปใจความสำคัญของเนื้อหาได้ภายใน 3 วินาที</span>
+            <a href="javascript:void(0);" id="read-more-btn-text-p9" class="read-more-btn" onclick="toggleReadMore('p9')">Read more</a>
+        </p><br>
+        <div class="project-tags">
+            <span>Graphic Design</span>
+            <span>Adobe Photoshop</span>
+            <span>Adobe Illustrator</span>
+        </div>
+    </div>
+</div>
+
+
+<div class="project-card" data-category="photography" data-order="1">
         <div class="project-card-image">
             <img src="img/robot.jpg" alt="Photography Project">
             <button class="view-graphic" data-images='[
@@ -341,53 +503,26 @@
 
             <div class="project-card-content">
                 <h3>Line-based parcel delivery robot</h3>
-                <p>หุ่นยนต์รับส่งพัสดุเดินตามเส้น พัฒนาผ่านโปรแกรม Arduino เป็นหุ่นยนต์รับพัสดุเวลามีพัสดุมาส่งแล้วหุ่นยนต์จะเดินตามเส้น
-                    รับส่งพัสดุยังจุดหมายปลายทางและกลับไปรอรับพัสดุดังเดิมมีการเเจ้งเตือนผ่าน Line notification</p>
+                <p>หุ่นยนต์รับส่งพัสดุเดินตามเส้น พัฒนาผ่านโปรแกรม Arduino <span id="dots-robot">...</span><span id="more-robot" style="display: none;"> เป็นหุ่นยนต์รับพัสดุเวลามีพัสดุมาส่งแล้วหุ่นยนต์จะเดินตามเส้น
+                    รับส่งพัสดุยังจุดหมายปลายทางและกลับไปรอรับพัสดุดังเดิมมีการเเจ้งเตือนผ่าน Line notification</span>
+                <a href="javascript:void(0);" id="read-more-btn-text-robot" class="read-more-btn" onclick="toggleReadMore('robot')">Read more</a></p>
                 <div class="project-tags">
                     <span>Arduino</span>
                     <span>Linenotification</span>
                 </div>
             </div>
         </div>
-        <!-- แก้ไข: เพิ่ม data-order="2" -->
-        <div class="project-card" data-category="branding" data-order="2">
-            <img src="https://img.freepik.com/premium-photo/software-developer-writes-code-develop-ai-software-laptop-company_1037297-49864.jpg?ga=GA1.1.473152669.1743170139&semt=ais_country_boost&w=740" alt="Project 3">
-            <div class="project-card-content">
-                <h3>Project Three</h3>
-                <p>Built with passion and precision.</p>
-                <div class="project-tags">
-                    <span>Branding</span>
-                    <span>Graphic Design</span>
-                    <span>Adobe Illustrator</span>
-                </div>
-            </div>
-        </div>
-        <!-- แก้ไข: เพิ่ม data-order="2" -->
-        <div class="project-card" data-category="photography" data-order="2">
-            <img src="https://via.placeholder.com/740x200" alt="Photography Project">
-            <div class="project-card-content">
-                <h3>Photography Project</h3>
-                <p>Capturing moments with creativity.</p>
-                <div class="project-tags">
-                    <span>Photography</span>
-                    <span>Lightroom</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Graphic Design Modal -->
+
     <div class="graphic-modal" id="graphicModal">
         <span class="graphic-modal-close">×</span>
         <div class="graphic-modal-content">
             <div class="graphic-carousel">
                 <div class="graphic-carousel-slide">
-                    <!-- ภาพจะถูกเพิ่มด้วย JavaScript -->
-                </div>
+                    </div>
                 <div class="graphic-carousel-controls">
                     <button class="graphic-carousel-prev">❮</button>
                     <div class="graphic-carousel-dots">
-                        <!-- Dots จะถูกเพิ่มด้วย JavaScript -->
-                    </div>
+                        </div>
                     <button class="graphic-carousel-next">❯</button>
                 </div>
             </div>
@@ -398,8 +533,7 @@
     </div>
 </section>
 
- <!-- Contact Section -->
-<section id="contact" class="contact-section">
+ <section id="contact" class="contact-section">
     <div id="contact-message"></div>
     <div class="contact-header">
         <h1>Contact Me</h1>
@@ -419,12 +553,10 @@
         <div class="contact-form">
             <h3>Send a Message</h3>
             <form action="https://formsubmit.co/aukkaporn.ju@gmail.com" method="POST">
-                <!-- ปิด CAPTCHA และตั้งหน้า redirect หลังส่ง -->
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="http://localhost/peaw/thankyou.html">
 
 
-                <!-- ช่องกรอก -->
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
@@ -435,7 +567,6 @@
 </section>
 
 
-    <!-- Footer -->
     <footer class="footer">
         <p>© 2025 Peaw IT. All rights reserved.</p>
         <div class="social-links">
@@ -446,6 +577,25 @@
     </footer>
 
     <script>
+function toggleReadMore(projectId) {
+    // ใช้ projectId ที่ส่งมาเพื่ออ้างอิงถึง element ที่ถูกต้องในแต่ละการ์ด
+    var dots = document.getElementById("dots-" + projectId);
+    var moreText = document.getElementById("more-" + projectId);
+    var btnTextSpan = document.getElementById("read-more-btn-text-" + projectId);
+
+    // ตรวจสอบสถานะ display โดยตรงจาก inline style ที่เรากำหนดใน HTML
+    if (moreText.style.display === "none") {
+        dots.style.display = "none";         // ซ่อนจุด (...)
+        moreText.style.display = "inline";   // แสดงข้อความส่วนที่ซ่อนอยู่ (ใช้ inline เพื่อให้อยู่บรรทัดเดียวกัน)
+        btnTextSpan.innerHTML = "Read less"; // เปลี่ยนข้อความเป็น "Read less"
+    } else {
+        dots.style.display = "inline";       // แสดงจุด (...)
+        moreText.style.display = "none";     // ซ่อนข้อความส่วนที่ซ่อนอยู่
+        btnTextSpan.innerHTML = "Read more"; // เปลี่ยนข้อความเป็น "Read more"
+    }
+}
+
+
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
     const navbar = document.querySelector('.navbar');
