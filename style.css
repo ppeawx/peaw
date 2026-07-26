@@ -1236,3 +1236,66 @@ body {
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
 }
+/* CSS สำหรับส่วน Read More/Less (เหลือแค่บล็อกเดียวที่ปรับปรุงแล้ว) */
+#more {
+    display: none; /* ซ่อนข้อความส่วนท้ายตอนแรก */
+}
+
+/* สไตล์สำหรับปุ่ม/ลิงก์ "Read more/Read less" */
+#read-more-btn-text {
+    color: #4CAF50; /* สีเขียว */
+    cursor: pointer; /* ทำให้เมาส์เปลี่ยนเป็นรูปมือ */
+    font-weight: bold; /* ทำให้ตัวหนาขึ้น */
+    text-decoration: none; /* ไม่มีขีดเส้นใต้ */
+    display: inline-block; /* ทำให้สามารถกำหนด margin/padding ได้ */
+    margin-top: 8px; /* เพิ่มระยะห่างด้านบนเล็กน้อย */
+}
+
+#read-more-btn-text:hover {
+    text-decoration: underline; /* เพิ่มขีดเส้นใต้เมื่อเอาเมาส์ไปชี้ */
+}
+
+/* *** จุดสำคัญ: CSS สำหรับแท็ก <p> ภายใน .project-card-content ***
+   จะจัดการให้ข้อความชิดซ้าย มีระยะห่างบรรทัด และระยะห่างด้านล่าง
+   และเพิ่มการย่อหน้าในบรรทัดแรก
+*/
+.project-card-content p {
+    text-align: left;       /* **สำคัญ:** จัดข้อความชิดซ้าย */
+    line-height: 1.6;       /* เพิ่มระยะห่างระหว่างบรรทัดเพื่อให้อ่านง่ายขึ้น */
+    margin-bottom: 10px;    /* เพิ่มระยะห่างด้านล่างของย่อหน้า */
+    text-indent: 20px;      /* ย่อหน้าในบรรทัดแรก 20px (ปรับค่าได้ตามต้องการ) */
+}
+
+.read-more-btn { /* ใช้คลาสนี้แทน ID เพื่อให้ใช้ซ้ำได้ง่ายขึ้น */
+    color: #4CAF50; /* สีเขียว */
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block; /* ทำให้สามารถกำหนด margin/padding ได้ */
+    margin-left: 5px; /* เพิ่มระยะห่างจากข้อความสุดท้ายเล็กน้อย */
+    white-space: nowrap; /* ป้องกันไม่ให้ปุ่มขึ้นบรรทัดใหม่ */
+}
+
+.read-more-btn:hover {
+    text-decoration: underline;
+}
+.view-graphic {
+    /* --- CSS เดิมที่คุณมีอยู่แล้ว (เช่น สีพื้นหลัง, padding, border) --- */
+    background-color: #28a745; /* ตัวอย่างสีเขียว */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    /* --- เพิ่ม 2 บรรทัดนี้เพื่อเอาเส้นใต้ออก --- */
+    display: inline-block;  /* จำเป็นสำหรับ tag a */
+    text-decoration: none !important;  /* เอาเส้นใต้ออก */
+    text-align: center;      /* จัดตัวอักษรให้อยู่กลาง */
+}
+
+/* เพิ่ม Effect เวลาเอาเมาส์ไปชี้ (ควรมีเพื่อให้ดูเหมือนปุ่ม) */
+.view-graphic:hover {
+    background-color: #218838; /* สีเขียวเข้มขึ้น */
+    color: white; /* เพื่อความชัวร์ว่าสีตัวอักษรไม่เปลี่ยน */
+}
